@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WinPlus Mobile</string>
+    <string name="menu">Menú</string>
+    <string name="fichar">Fichar</string>
+    <string name="verFichajes">Ver Fichajes</string>
+    <string name="acumulados">Acumulados</string>
+    <string name="opciones">Opciones</string>
+    <string name="salir">Salir</string>
+    <string name="volver">Volver</string>
+    <string name="entrada">Entrada</string>
+    <string name="salida">Salida</string>
+    <string name="salidaInc">Salida Inc.</string>
+    <string name="google_maps_key">AIzaSyDgN_iXuTF00GR_RMn0Zr87pdZK7U3oEVY</string>
+</resources>

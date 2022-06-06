@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Acumulados">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#6188D8">
+
+        <Button
+            android:id="@+id/btVolverAcumulados"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#00FFFFFF"
+            android:contentDescription="@string/verFichajes"
+            android:onClick="volverAcumulados"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/acumulados"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/ic_flecha_blanca"
+            android:rotation="0"
+            android:rotationX="0"
+            android:rotationY="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:background="@drawable/line_top_bottom">
+
+        <EditText
+            android:id="@+id/hasta"
+            android:layout_width="182dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/borde_inputfield"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingLeft="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/desde"
+            app:layout_constraintStart_toStartOf="@+id/desde"
+            app:layout_constraintTop_toBottomOf="@+id/desde" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            android:text="Desde:"
+            android:textColor="@color/dark_gray"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/desde"
+            app:layout_constraintEnd_toStartOf="@+id/desde"
+            app:layout_constraintTop_toTopOf="@+id/desde" />
+
+        <EditText
+            android:id="@+id/desde"
+            android:layout_width="182dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/borde_inputfield"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingLeft="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/btHasta"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/ic_calendario"
+            android:onClick="fechasCalendario"
+            app:layout_constraintBottom_toBottomOf="@+id/hasta"
+            app:layout_constraintStart_toEndOf="@+id/hasta"
+            app:layout_constraintTop_toTopOf="@+id/hasta"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/btDesde"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/ic_calendario"
+            android:onClick="fechasCalendario"
+            app:layout_constraintBottom_toBottomOf="@+id/desde"
+            app:layout_constraintStart_toEndOf="@+id/desde"
+            app:layout_constraintTop_toTopOf="@+id/desde"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            android:text="Hasta:"
+            android:textColor="@color/dark_gray"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/hasta"
+            app:layout_constraintEnd_toStartOf="@+id/hasta"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/hasta"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btFichajes"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@android:drawable/ic_menu_search"
+            android:onClick="crearTabla"
+            android:text="Buscar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btHasta"
+            app:layout_constraintTop_toBottomOf="@+id/hasta"
+            app:layout_constraintVertical_bias="0.529" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TableRow
+        android:id="@+id/cabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6188D8">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_right"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="Contador"
+            android:textColor="#FFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="Total"
+            android:textColor="#FFFF"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:id="@+id/tablaPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" />
+
+    </ScrollView>
+</LinearLayout>

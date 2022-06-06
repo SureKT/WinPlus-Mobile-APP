@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/borde_foto.xml" value="0.201" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/borde_inputfield.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/flecha.xml" value="0.1745" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_acumulados.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_cerrar.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_entrar.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_entrarsimetrico.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_fichajes2.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_flecha.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_salir.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_salir2.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_salirInc.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_salirf.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_salirinc.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/ic_salirsimetrico.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/line_bottom.xml" value="0.241" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/line_bottom_odd.xml" value="0.114" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/line_right.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/linetopbottom.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/menu.xml" value="0.184" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/salir.xml" value="0.184" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/tarjeta_fichar.xml" value="0.1745" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/drawable/textlines.xml" value="0.183" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/activity_acumulados.xml" value="0.3277777777777778" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/activity_fichar.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/activity_login.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/activity_menu.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/acumulados.xml" value="0.3375" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/fichajes.xml" value="0.264" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/fichar.xml" value="0.33" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/login.xml" value="0.3375" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/layout/menu.xml" value="0.33" />
+        <entry key="..\:/Users/glopez/AndroidStudioProjects/WinPlusMobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1745" />
+        <entry key="..\:/Users/glopez/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.3375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
